@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 1rem;
+}
+
+h1, h2, h3 {
+  margin: 0 0 0.5rem;
+}
+
+#pool-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+#pool-buttons button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#pools {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.pool-box {
+  border: 1px solid #ccc;
+  min-height: 150px;
+  padding: 0.5rem;
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  flex: 1;
+}
+
+.team-tag {
+  border: 1px solid #888;
+  padding: 0.3rem 0.5rem;
+  background: #fff;
+  cursor: grab;
+  user-select: none;
+}
+
+#team-list {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  min-height: 100px;
+  background: #eef;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}

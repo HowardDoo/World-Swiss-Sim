@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Swiss Stage Simulator</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Worlds Swiss Stage Simulator</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Assign Teams to Pools</h2>
+
+        <div id="pool-buttons">
+          <button id="btn-3">3 Pools</button>
+          <button id="btn-4">4 Pools</button>
+        </div>
+
+        <div id="pools" style="display: flex; gap: 1rem; margin-top: 1rem;"></div>
+
+        <h3>Available Teams</h3>
+        <div id="team-list" style="display: flex; flex-wrap: wrap; gap: 0.5rem;"></div>
+      </section>
+
+</main>
+
+
+    <script type="module" src="/src/simulator.js"></script>
+  </body>
+</html>
